@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>誕生日占い</title>
+
+  <link rel="stylesheet" href="kadiayou.css">
+</head>
+<body>
+  <div class="container">
+    <h1>誕生日占い</h1>
+    <p class="desc">生年月日を入力すると、あなたの今日の運勢がわかります。</p>
+
+    <label for="birthday">誕生日</label>
+    <input type="date" id="birthday">
+
+    <button id="btn">占う</button>
+
+    <div class="result" id="result">
+      <div class="result-title" id="result-title"></div>
+      <div class="result-main" id="result-main"></div>
+      <div class="zodiac" id="zodiac"></div>
+    </div>
+
+    <footer>※結果はエンタメです。</footer>
+  </div>
+
+  <script src="kadaiyou.js"></script>
+</body>
+</html>
